@@ -9,7 +9,7 @@ An Arduino-based autonomous robot that navigates its environment by detecting an
 * **Real-Time Data Display:** An I2C 16x2 LCD screen outputs the current distance to obstacles and the robot's status (e.g., "Moving...", "Scanning...", "IR ALERT!").
 * **Safety Watchdog:** Implements a movement duration timeout to prevent the robot from moving blindly for too long without re-evaluating its surroundings.
 
-  ![UGV Front View](UGV_photo.jpg)
+  ![UGV Front View](Media/UGV_photo.jpg)
 
 ## 🛠️ Hardware Components
 * 1x Arduino UNO R3 (with Sensor Shield V5.0)
