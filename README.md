@@ -5,7 +5,7 @@ An Arduino-based autonomous robot that navigates its environment by detecting an
 ## Features
 * **Hybrid Obstacle Detection:** Uses an HC-SR04 Ultrasonic sensor mounted on a Servo motor to scan for clear paths, alongside two LM393 IR sensors to cover blind spots.
 * **Differential Drive System:** Utilizes two DC motors controlled by an L298N Motor Driver, allowing for precise maneuvers and spot-turns.
-* **Non-Blocking Architecture:** The code utilizes the `millis()` function instead of `delay()` to achieve pseudo-multitasking. This allows the robot to continuously update the LCD, read sensors, and track movement timeouts simultaneously.
+* **Architecture:** The code utilizes the `millis()` function instead of `delay()` to achieve pseudo-multitasking. This allows the robot to continuously update the LCD, read sensors, and track movement timeouts simultaneously.
 * **Real-Time Data Display:** An I2C 16x2 LCD screen outputs the current distance to obstacles and the robot's status (e.g., "Moving...", "Scanning...", "IR ALERT!").
 * **Safety Watchdog:** Implements a movement duration timeout to prevent the robot from moving blindly for too long without re-evaluating its surroundings.
 
