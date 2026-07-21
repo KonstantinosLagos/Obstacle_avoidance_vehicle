@@ -1,8 +1,8 @@
-# Obstacle Avoidance UGV (Unmanned Ground Vehicle)
+## 🚗 Obstacle Avoidance UGV (Unmanned Ground Vehicle)
 
 An Arduino-based autonomous robot that navigates its environment by detecting and avoiding obstacles. It uses a combination of an ultrasonic sensor for strategic path planning and infrared (IR) sensors for immediate emergency stops.
 
-## Features
+## 📝 Features
 * **Hybrid Obstacle Detection:** Uses an HC-SR04 Ultrasonic sensor mounted on a Servo motor to scan for clear paths, alongside two LM393 IR sensors to cover blind spots.
 * **Differential Drive System:** Utilizes two DC motors controlled by an L298N Motor Driver, allowing for precise maneuvers and spot-turns.
 * **Architecture:** The code utilizes the `millis()` function instead of `delay()` to achieve pseudo-multitasking. This allows the robot to continuously update the LCD, read sensors, and track movement timeouts simultaneously.
@@ -22,7 +22,7 @@ An Arduino-based autonomous robot that navigates its environment by detecting an
 * 1x Plexiglass Chassis
 * Power Supply: 9V (6x 1.5V AA Batteries)
 
-## Pin Configuration (Wiring)
+## 🔌 Pin Configuration (Wiring)
 
 | Component | Pin on Component | Arduino Pin |
 | :--- | :--- | :--- |
