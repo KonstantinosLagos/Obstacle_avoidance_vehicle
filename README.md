@@ -46,4 +46,4 @@ This project is programmed using the **Arduino IDE**. The following libraries mu
 
 ## 🚀 Installation & Usage
 1. Clone this repository to your local machine:
-   
+   git clone [https://github.com/KonstantinosLagos/Obstacle_avoidance_vehicle.git]
